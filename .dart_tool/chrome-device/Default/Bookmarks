@@ -1,0 +1,212 @@
+{
+   "checksum": "40f1a65fa9ba6f5d2567dddcda01d155",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13335985792246239",
+            "date_last_used": "13335985829629981",
+            "guid": "8b1f1fe2-47f2-4cc8-b9d7-f183de26ad60",
+            "id": "7",
+            "name": "Udemy",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.udemy.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13336879797376536",
+            "date_last_used": "0",
+            "guid": "154c277f-80c1-44ff-b63f-3e252331c633",
+            "id": "8",
+            "name": "Un usuario necesita conectarse a Cisco.com, pero no conoce la dirección IP de este sitio web. ¿Qué tipo de servidor traducirá el nombre del sitio web a una dirección IP?",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://examenredes.com/examen-de-practica-para-la-certificacion-a-220-1001-respuestas/",
+            "visit_count": 0
+         }, {
+            "date_added": "13341807080745145",
+            "date_last_used": "0",
+            "guid": "65571b49-51c4-4b27-8d06-506f108b6f0d",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Discord | #general | Cesarxd",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://discord.com/channels/761680711581171753/761680712012136479",
+            "visit_count": 0
+         }, {
+            "date_added": "13341807088435813",
+            "date_last_used": "0",
+            "guid": "c505ecbf-c51f-442a-b2bc-661c5ef59af7",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Nueva pestaña",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "edge://newtab/",
+            "visit_count": 0
+         }, {
+            "date_added": "13342713842963320",
+            "date_last_used": "0",
+            "guid": "b783d1f4-5e95-4654-91ba-9b3275e80546",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "presentación Proyecto final figuras geometricas azul - Presentación",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAFyHz5MO3M/-McWZ97NgkZw_oBiHjznHQ/edit",
+            "visit_count": 0
+         }, {
+            "date_added": "13343923441746600",
+            "date_last_used": "0",
+            "guid": "8e0e0790-1612-4dc0-93a6-6bc6c758638c",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(2) HABLANDO HUEVADAS - Séptima Temporada [PERREO PA LOS NENES, PERREO PA LAS NENAS] - YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=zgMN3uoHlsk&t=3173s&ab_channel=HablandoHuevadas",
+            "visit_count": 0
+         }, {
+            "date_added": "13343938270446297",
+            "date_last_used": "0",
+            "guid": "1323f021-2364-4c18-a8c3-ddc88f3f64f1",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(2) Sí! Me la K-che... Y? 😈🥵 Kingteka Revela Fulera con...? 😱🔥 - YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=RoCUjEdiwF4",
+            "visit_count": 0
+         }, {
+            "date_added": "13344239753496137",
+            "date_last_used": "0",
+            "guid": "987b56c1-91ab-426b-98d1-a501c256fb53",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube Music",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://music.youtube.com/watch?v=uCYm6HIMm1Y",
+            "visit_count": 0
+         }, {
+            "date_added": "13344479069572381",
+            "date_last_used": "0",
+            "guid": "61a83292-a752-40f8-9d48-b838303d9ffd",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "oxs-ofky-xqx - 14 nov 2023 - Google Jamboard",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://jamboard.google.com/d/1c9boccVbJoHIpkWUfQrI9NtnYtJfKILopW11DrkiFmU/viewer?pli=1&mtt=q3cxl66cd4hp&f=0",
+            "visit_count": 0
+         }, {
+            "date_added": "13345232729425528",
+            "date_last_used": "0",
+            "guid": "faf45eb0-08c1-4dfd-85fe-448b866843ce",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Final Exam - Evaluación final (page 4 of 5)",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://lms.netacad.com/mod/quiz/attempt.php?attempt=59404414&cmid=80925799&page=3",
+            "visit_count": 0
+         }, {
+            "date_added": "13346335181752423",
+            "date_last_used": "0",
+            "guid": "fa1cc4ef-ceeb-45a1-9e92-a99b15980823",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Presentación Comunicación Digital Doodle Yellow - Presentación",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.canva.com/design/DAF15mF30AE/sP2wnfSSjjQw_bcs3vHWGQ/edit",
+            "visit_count": 0
+         }, {
+            "date_added": "13346734804348504",
+            "date_last_used": "0",
+            "guid": "c206701b-3734-4913-89fb-707261d7a5b2",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "HABLANDO HUEVADAS - Séptima Temporada [SE PASARON DE POBRES EN EL MALL DE SJL] - YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=sUYBSxp57iA&ab_channel=HablandoHuevadas",
+            "visit_count": 0
+         } ],
+         "date_added": "13383185945833279",
+         "date_last_used": "0",
+         "date_modified": "13346734804348504",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [  ],
+            "date_added": "13335717872028335",
+            "date_last_used": "0",
+            "date_modified": "13335717872028335",
+            "guid": "fcd5a65c-0fac-4ccd-b952-50c3d4164cea",
+            "id": "6",
+            "name": "Nueva carpeta",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13383185945833283",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13383185945833286",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos móviles",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCJ0aVdOUAQAAKg4QABgBIAAoBjAAOABAABIAKhhBWU9QejQ0Q2RGWWU5ay9MRHlqWFJBPT1IA6AGDBKuAQgSEqkBChx0U1k3bHl6N2hoR3JlRkFTVk5RSEYvZDFuRG89EiRjMjA2NzAxYi0zNzM0LTQ5MTMtODlmYi03MDcyNjFkN2E1YjIYACAAKAAwoOaytcUxOKvnsrXFMUCr57K1xTFKHGVLWEJhLzBFN2s0a3FFSXluK2QremFlM1pWST1aICIe//dBR1lYbFRtSW9VaGRvUjFGa1JVOGFQZlVXUnc9ZTj5OTPCPgJgBRKuAQgQEqkBChx4M0RxSnRaZDB6dFI3dFVRRE9qY1NVR0hRZkk9EiRmYWY0NWViMC0wOGMxLTRkZmQtODVmZS00NDhiODY2ODQzY2UYACAAKAAwxKKT6b8xOJekk+m/MUCXpJPpvzFKHDZWVTdVUFVFM0FKeEYzRjk2T2d3OW50a3ZDST1aICIe/9xTMVlZMjdDSHZJRDgrVFFydjN2dHMybStNQms9ZRZRvRjCPgJgBRKuAQgPEqkBChxxdjhWeVV4WVg4MTdFUEVTZXdLUW1ONFF2d009EiQ2MWE4MzI5Mi1hNzUyLTQwZjgtOWQ0OC1iODM4MzAzZDlmZmQYACAAKAAw+s/jgb0xOPjQ44G9MUD40OOBvTFKHExHM0VhcVJ6eE9KeEJtQXFTaEpKOEVGdzFSWT1aICIe/7kwa0tyM1M5TGpyWU0rMy9rMTVKZ2J2ZHBwR2s9ZTmbgvvCPgJgBRKtAQgOEqgBChwyVkpGV1Jqak5xNjBnYUNvUE5tRXdkQVJrcGc9EiQ5ODdiNTZjMS05MWFiLTQyNmItOThkMS1hNTAxYzI1NmZiNTMYACAAKAAwyPbUj7wxOJb51I+8MUCW+dSPvDFKHEhBakVVQ1dwb1p0Qnp5ZHpRcEpmckpSVlRnYz1aHyId/3JWWjBsUzMxdnRna3MrWUtWSVNqUU5DSHVuYz1lvGZym8I+AmAFEq0BCAwSqAEKHFB6WHhqRGx4U1RROUNjTVZkRzd4dFoyUWRjZz0SJDhlMGUwNzkwLTE2MTItNGRjMC05M2E2LTZiYzZjNzU4NjM4YxgAIAAoADDk2ur4ujE48tvq+LoxQPLb6vi6MUocMFI2OFMrNytzQjllTkJleXZpZ1pNa0NjdDhVPVofIh3+SFJiYkxzeURkREtraVkrOXpleEdwQzdhRkRRPWU4+Tkzwj4CYAUSrQEICxKoAQocZjR6MWFvblhkOEJUazZ2c05yeVBwdGFlbEFrPRIkYjc4M2QxZjQtNWU5NS00NjU0LTkxYmEtOWIzMjc1ZTgwNTQ2GAAgACgAMNLXhri2MTi72Ia4tjFAu9iGuLYxShw1RFBGL1B2eXpxMWozSDVtOXNvaXVVMGtYd0k9Wh8iHf1pRFh4dHF2RGg4QTZpUEFGYXFuclFBN2xJSmc9ZVIdo2XCPgJgBRKuAQgREqkBChwySjBhdnNpMmN3RTYvUCtVU2ZKNE5HNlZTTjA9EiRmYTFjYzRlZi1jZWViLTQ1YTEtOWU5Mi1hOTliMTU5ODA4MjMYACAAKAAw1c3r9sMxONPO6/bDMUDTzuv2wzFKHFREREs4UU1oc2tYaDl1RWhxdHpYNUtZaldVZz1aICIe/+4xKytvTE9saDM2VmdCL1RlT1JvUjZnQzZxUGc9ZVIdo2XCPgJgBRKOAQgDEokBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQ5M2FjZjYwNi1kYThlLTU3ZTUtODEzNC1mY2JmNDVkYWRmNTYYACAAKAAwrabbzbAwON/6nqCNMEDf+p6gjTBKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAwj4CYAASrQEIDRKoAQocanovOGQza0FDdjRwNW5HVktjcHJad2pxcjVnPRIkMTMyM2YwMjEtMjM2NC00YzE4LWE4YzMtZGRjODhmM2Y2NGYxGAAgACgAMObl8/+6MTiO6PP/ujFAjujz/7oxShxETnREcHQ4S3hBQThaODBUOXh1OTB6ZytZVzQ9Wh8iHf9ZaUxpYUVmVWJveStNU2VaN216RjMrVlhOUTA9ZTj5OTPCPgJgBRKtAQgJEqgBChxBTFhXNk9OOTJYY1F3anhxZVNsMmRpdVVGT0k9EiQ2NTU3MWI0OS01MWM0LTRiMjctOGQwNi01MDZmMTA4YjZmMGQYACAAKAAw5daK1ccxOKaz1oezMUCms9aHszFKHDRrY2xCYXN6NkFKR0EveFltZkxDWHdlU1g5RT1aHyId9jQvRmlLeUFwZjlGYjBzOHB5VG1iNEt6MlNjbz1lrge2kcI+AmAFEq0BCAoSqAEKHFFoVXFsVW5QN0VNNlVtVHY5R2JwVXFmNUc5VT0SJGM1MDVlY2JmLWM1MWYtNDQyYS1iMmJjLTY2MWM1ZWY1OWFmNxgAIAAoADDr7taHszE43e/Wh7MxQN3v1oezMUocL2d0Wm5HUlRKbTdmYzVhVVE2MGlHVlhkWDFrPVofIh37TzRnbmQzWVBvOHQvTkxpQkl2dTdVYTJneHpzPWXYr7ACwj4CYAUSrQEICBKoAQocY2NGNGd3RVYrMm5zK25SS0c3bHdlTGJVRzNvPRIkMTU0YzI3N2YtODBjMS00NGZmLWI2M2YtM2UyNTIzMzFjNjMzGAAgACgAMP7dlNqgMTjG35TaoDFAxt+U2qAxShx1S2sxTnJ1enp1YXlubkYrTGNVSXUxakNlc009Wh8iHexZUzNGSlNOSWRtK2gva3RKbllmT096dTQ0K2c9ZQKvXiHCPgJgBRKsAQgGEqcBChxneG1yS05PdWtyVCtpV3Zvc0tZd1Z2SVpsVVk9EiRmY2Q1YTY1Yy0wZmFjLTRjY2QtYjk1Mi01MGMzZDQxNjRjZWEYACAAKAAw09jqxJ0xOPfe6sSdMUD33urEnTFKHHRyVlZid2JWMkFTVGprODNmKzRiZm1vMU5xRT1aHiIcYVRJWVlqNVRVQUVkVjlwQUQ5R0l3L1U5TVZZPWUAAAAAwj4CYAASjgEIAhKJAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkOGQ0OTQ1OTEtMDhjMS01OTE5LTgxYzYtYjQxYjM5ZDVhODIyGAAgACgAMK2m282wMDji+Z6gjTBA4vmeoI0wShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAAMI+AmAAEq0BCAcSqAEKHE9YaGtTS1hXYXM3THcrNC9LODk4QnFOQm9VRT0SJDhiMWYxZmUyLTQ3ZjItNGNjOC1iOWQ3LWYxODNkZTI2YWQ2MBgAIAAoADDR2OrEnTE4qt7qxJ0xQKre6sSdMUocSHlJMHozVmxLRUh1ZlZhUlpYUnZaSEhvMkVRPVofIh3ZKzNIeno2WmdjMjJESXBXVjVUakdOK0t4L3NNPWUEotYHwj4CYAUSjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkNmQ0MTRhYzItM2Q1ZC01NmI2LWFjNGYtODI5M2ExZTkwYWM4GAAgACgAMK2m282wMDjD+Z6gjTBAw/meoI0wShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAMAA4AA==",
+   "version": 1
+}

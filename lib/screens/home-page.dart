@@ -1,85 +1,109 @@
-import 'package:app1/screens/login-page.dart';
+// lib/pages/home_page.dart
+
+import 'package:app1/utils/pokemon_theme.dart';
 import 'package:flutter/material.dart';
+import '../models/pokemon.dart';
+import '../services/pokemon_service.dart';
+import 'detail_page.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
-
   @override
-  State<HomePage> createState() => _HomePageState();
+  _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
-  int respuesta = 0;
-  TextEditingController numero1Ctrl = TextEditingController();
-  TextEditingController numero2Ctrl = TextEditingController();
+  late Future<List<Pokemon>> futurePokemons;
+  final PokemonService _pokemonService = PokemonService();
+
+  @override
+  void initState() {
+    super.initState();
+    futurePokemons = _pokemonService.fetchPokemons();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("Calcular nivel Conti."),
-        ),
-        body: Column(
-          children: [
-            Text("Primer numero"),
-            TextField(
-              controller: numero1Ctrl,
-            ),
-            Text("Segundo numero"),
-            TextField(
-              controller: numero2Ctrl,
-            ),
-            Row(
-              children: [
-                ElevatedButton(
-                    onPressed: () => operacion("suma"), child: Icon(Icons.add)),
-                ElevatedButton(
-                    onPressed: () => operacion("resta"),
-                    child: Icon(Icons.remove)),
-                ElevatedButton(
-                    onPressed: () => operacion("multiplicacion"),
-                    child: Icon(Icons.close)),
-                ElevatedButton(
-                    onPressed: () => operacion("division"), child: Text("/")),
-              ],
-            ),
-            SizedBox(height: 40),
-            Text("respuesta"),
-            Text("$respuesta")
-          ],
-        ));
-  }
-
-  void operacion(String operacion) {
-    int numero1 = int.parse(numero1Ctrl.text);
-    int numero2 = int.parse(numero2Ctrl.text);
-    print(numero1);
-    print(numero2);
-    int res = 0;
-    switch (operacion) {
-      case "suma":
-        res = numero1 + numero2;
-        break;
-      case "resta":
-        res = numero1 - numero2;
-        break;
-      case "division":
-        res = (numero1 / numero2).toInt();
-        break;
-      case "multiplicacion":
-        res = numero1 * numero2;
-        break;
-      default:
-        res = -1000;
-    }
-    setState(() {
-      this.respuesta = res;
-    });
-  }
-
-  void irALogin(BuildContext context) {
-    // Navigator.of(context)
-    //     .push(MaterialPageRoute(builder: (ctx) => LoginPage()));
-    Navigator.of(context).pushNamed("login");
+      appBar: AppBar(
+        title: Text('Pokedex XD', style: TextStyle(color: Colors.white)),
+        backgroundColor: Colors.blueAccent,
+        elevation: 10,
+      ),
+      body: FutureBuilder<List<Pokemon>>(
+        future: futurePokemons,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return Center(child: Text('Error: ${snapshot.error}'));
+          } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
+            return Center(child: Text('No hay Pokémon disponibles'));
+          } else {
+            final pokemons = snapshot.data!;
+            return GridView.builder(
+              padding: EdgeInsets.all(10),
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                crossAxisSpacing: 10,
+                mainAxisSpacing: 10,
+                childAspectRatio: 1.2,
+              ),
+              itemCount: pokemons.length,
+              itemBuilder: (context, index) {
+                final pokemon = pokemons[index];
+                return InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => DetailPage(pokemon: pokemon),
+                      ),
+                    );
+                  },
+                  child: Card(
+                    elevation: 5,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: PokemonTheme.getGradientFromId(pokemon.id),
+                        borderRadius: BorderRadius.circular(15),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.network(
+                            'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png',
+                            width: 80,
+                            height: 80,
+                          ),
+                          SizedBox(height: 10),
+                          Text(
+                            pokemon.name.toUpperCase(),
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Text(
+                            'ID: ${pokemon.id}',
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.white70,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                );
+              },
+            );
+          }
+        },
+      ),
+    );
   }
 }

@@ -7,6 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       // Application name
       title: 'Flutter Hello World',
       // Application theme data, you can set the colors for the application as
